@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git" , "13.4.0"..<"13.6.0"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", "12.13.0"..<"12.15.0")
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", "13.3.0"..<"13.4.0")
     ],
     targets: [
         .target(name:"RTBOMSDK",
@@ -44,23 +44,23 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "GraviteRTBAppLovinMediationAdapter",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.5/GraviteRTBAppLovinMediationAdapter.zip",
-            checksum: "ea581e6571e68dab2e1a002b8b9d7a7c2fe68f10d034a8ed221484cc0eda11b0"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.6/GraviteRTBAppLovinMediationAdapter.zip",
+            checksum: "7b81fd1e69654f5f91345262aa4eb9e7673f53caa856d199f8b64efbd6002d62"
         ),
         .binaryTarget(
             name: "RTBSDK",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.5/RTBSDK.zip",
-            checksum: "e74ae1241dc67c1721bee81272dda55aadb5d91c576ab7c4857d730ee5580152"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.6/RTBSDK.zip",
+            checksum: "0f263bd70c4bc5cf5af5492c47a56848ca2cf7b580f50a9e86f95c1942f91017"
         ),
         .binaryTarget(
             name: "GraviteRTBAdMobMediationAdapter",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.5/GraviteRTBAdMobMediationAdapter.zip",
-            checksum: "eded4bd0e258e5afc5bdbe167ef55fbb161d61a2e7570126cc0fd65b155a8434"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.6/GraviteRTBAdMobMediationAdapter.zip",
+            checksum: "61c627d7be3d48290842303f9af726a91a92223314bb8e88124311ac5629cf0c"
         ),
         .binaryTarget(
             name: "OMSDK_Addapptr",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.5/OMSDK_Addapptr.zip",
-            checksum: "870f2ccd7b62c7caa20f828b53974082853433843ffa2d81cd013733ed27c2c6"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.9.6/OMSDK_Addapptr.zip",
+            checksum: "888065d1328a405ad2ebdb040a5c1d8d8da6fd89e5ba94b2b6fc72f1baf4a3ac"
         ),
     ]
 )
