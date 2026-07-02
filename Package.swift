@@ -20,13 +20,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "RTBSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/rtbsdk/ios/spm/1.10.0-beta2/RTBSDK.zip",
-            checksum: "d371a008da72aa7a35030491a94a44bcc4ac1b978a36b85f3898fa88bea4e5c0"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/rtbsdk/ios/spm/1.10.1/RTBSDK.zip",
+            checksum: "f307a1d917709eade3b88ccac3cee7442fd2dcc1cdb0f482cbb725e0f8ca9195"
         ),
         .binaryTarget(
             name: "OMSDK_Addapptr",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/rtbsdk/ios/spm/1.10.0-beta2/OMSDK_Addapptr.zip",
-            checksum: "ee525373d6bb339089cce989c1257e2ad147af27600d1a36f3e4a1e6dff82d6d"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/rtbsdk/ios/spm/1.10.1/OMSDK_Addapptr.zip",
+            checksum: "103b57212e169e5e5e146b909b57d53363b553b8001e4b151c91d6a9df2c1c09"
         ),
     ]
 )
